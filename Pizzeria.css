@@ -1,0 +1,722 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+color: aliceblue;
+
+}
+.icons img{
+    width:20px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.icons{
+    margin-left: 150px;
+}
+.head{
+    display: flex;
+}
+.start{
+    display: flex;
+}
+.start img{
+    margin-left: 370px;
+    color: rgb(201, 201, 201);
+
+}
+.start button{
+    background-color: transparent;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    border: 2px solid white;
+    color: aliceblue;
+margin-left: 400px;
+margin-top: 15px;
+ }
+nav li{
+    list-style: none;
+}
+nav ol{
+    display: flex;
+    width: 600px;
+    justify-content: space-evenly;
+    margin-left: 370px;
+}
+.pizza{
+    margin-left: 350px;
+    margin-top: 250px;
+}
+.pizza h1{
+font-size: 500%;
+}
+.pizza p{
+    width: 750px;
+    margin-left: 70px;
+
+}
+.pizza button{
+    background-color: transparent;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    border: 2px solid #e4032f;
+    color: aliceblue;
+    font-weight: bold;
+}
+button.red{
+    background-color: #e4032f;
+    margin-left: 190px;
+    margin-top: 50px;
+}
+button.white{
+    margin-left: 50px;
+    border-color: aliceblue;
+}
+.pizza button:hover{
+    background-color: white;
+    color: black;
+    border-color: aliceblue;
+}
+.panel{
+ background:linear-gradient(
+    rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.7)), url(Pizzeria-bg.jpg);  
+ height: 1000px; 
+ border-bottom-right-radius: 300px;
+ border-bottom-left-radius: 300px;
+ background-size: cover;
+
+}
+body{
+    margin: 0;
+}
+.pizza2 img{
+position: absolute;
+top: 50em;
+left: 36em;
+z-index: 1; 
+width: 30vw;  
+}
+.para h2{
+ color: #e4032f;   
+}
+.para p{
+    color: rgb(49, 46, 46);
+}
+.para img{
+    border-radius: 50%;
+}
+.para div{
+    width: 20%;
+}
+.para{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 150px;
+}
+.div1,.div3{
+    margin-top: 200px;
+}
+.div2{
+    margin-top: 350px;
+}
+.collect img{
+    width: 90px;
+}
+.collect{
+    color: black;
+}
+.order img{
+    width: 40px;
+}
+.order img{
+    width: 40px;
+}
+img.bimg{
+    width: 90px;
+    
+}
+.collect{
+    display: flex;
+    justify-content: space-between;
+    background:  linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)), url(pizzeria-template-delivery-section-img-bg.jpg);
+    height: 500px;
+    color: aliceblue;
+    background-position: center;
+}
+.block p{
+    display: inline-block;
+}
+.block img{
+    width: 30px;
+}
+.you {
+    font-size: 400%;
+    width: 300px;
+    margin-left:100px ;
+    margin-top: 90px;
+}
+.line{
+    margin-top: 150px;
+}
+.your{
+    margin-left: 100px;
+    width: 300px;
+    font-size: x-large;
+}
+.block p{
+    width: 130px;
+    font-size: larger;
+}
+.new p{
+    color: rgb(49, 46, 46);
+    width: 600px;
+
+}
+.new h3{
+    color: #e4032f;
+}
+.new h2{
+    color: black;
+    margin-left: 350px;
+    font-size: 300%;
+    font-weight: 900;
+    margin-top: 0px;
+}
+.new h3{
+    margin-left: 700px;
+}
+.new p{
+    margin-left: 500px;
+}
+.menu{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid #e4032f;
+    color: #e4032f;
+    font-weight: bold;
+    margin-left: 600px;
+    margin-top: 30px;
+}
+.menu:hover{
+    background-color: #e4032f;
+    color: wheat;
+}
+.section2{
+    display: flex;
+   justify-content: space-around;
+}
+.section2 img{
+    width: 400px;
+}
+.section2 h2{
+    color: #e4032f;
+    font-size: xx-large;
+    margin-left: 150px;
+}
+.pizziya{
+    margin-top: 90px;
+}
+.deals h2{
+    color: black;
+    font-size: 300%;
+    display: inline-block;
+}
+.deals button{
+    width: 170px;
+    height: 50px;
+    border:2px solid #e4032f;
+    color: #e4032f;
+    font-weight: bold;
+    margin-left: 700px;
+    border-radius: 5px;
+ }
+ .deals button:hover{
+    background-color: #e4032f;
+    color: aliceblue;
+ }
+ .deals{
+    margin-left: 200px;
+ }
+div.meat{
+    width: 80%;
+    height: 400px;
+    margin-left: 200px;
+    border-radius: 10px;
+    background-image: url(pizzeria-template-deals-shape-bg-1.svg),url(pizzeria-template-deals-img-1.jpg);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, no-repeat;
+    background-position:right,left;
+    background-size: 60%,50%;
+    z-index: 1 0;
+}
+.meat h4,.meat h2,.meat p{
+    margin-left: 600px;
+
+}
+.meat h4{
+    font-size: larger;
+    color: #fecc00;
+    padding-top: 100px;
+}
+.meat h2{
+    font-size: 400%;
+    width: 550px;
+    margin-top: 0px;
+}
+.discount{
+    display: flex;
+    width: 80%;
+    margin-left: 200px;
+    margin-top: 30px;
+    
+}
+.Italian,.combo{
+    background-color:#fecc00;
+    border-radius: 10px;
+}
+.Italian{
+    margin-left: 50px;
+    width: 50%;
+    height: 350px;
+    background-image: url(pizzeria-template-shape-bg-3.svg),url(pizzeria-template-deals-img-3.jpg);
+    background-repeat: no-repeat no-repeat;
+    background-size: cover 50%;
+    z-index: 0 1;
+    background-position:right,left;
+    
+}
+.combo{
+    width: 50%;
+    height: 350px;
+    background-image: url(pizzeria-template-shape-bg-2.svg),url(pizzeria-template-deals-img-2.jpg);
+    background-repeat: no-repeat no-repeat;
+    background-size: cover 50%;
+    z-index: 0 1;
+    background-position:right,left;
+}
+.combo h2{
+    color: #fecc00;
+    font-size: 210%;
+    font-weight: bolder;
+    width: 300px;
+    margin-left: 340px;
+    padding-top: 60px;
+}
+.combo p{
+    margin-left: 390px;
+    font-size: 500%;
+    margin-top: 0px;
+    font-weight:bolder;
+}
+.Italian h2{
+    color: #fecc00;
+    font-size: 210%;
+    font-weight: bolder;
+    width: 250px;
+    text-align: end;
+    padding-top: 60px;
+    display: inline-block;
+    margin-left: 300px;
+}
+.Italian .start{
+    margin-left: 450px;
+    font-size: 150%;
+    margin-top: 0px;
+}
+.dollar{
+    margin-left: 380px;
+    font-size: 500%;
+    margin-top: 0px;
+    font-weight:bolder;
+}
+.Italian img{
+    margin-left: 220px;
+    position: absolute;
+margin-top: 20px;
+}
+.meat p{
+    font-weight: bold;
+}
+.locate h4{
+    color: #e4032f;
+    font-size: larger;
+    margin-top: 60px;
+}
+.locate h2{
+    color: #000000;
+    font-size: 400%;
+    margin-top: 0;
+}
+.locate p{
+    color: rgb(49, 48, 48);
+}
+.locate p{
+    width: 600px;
+    margin-left: 450px;
+}
+.locate{
+    text-align: center;
+}
+.contact {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.contact p{
+    color: #000000;
+    width: 200px;
+    text-align:center ;
+
+}
+.contact h2{
+    color: #e4032f;
+    text-align: center;
+    font-size: 200%;
+    font-weight: 800;
+
+}
+.sider h4{
+    color:#e4032f;
+    font-size: large;
+    margin: 0px;
+}
+.sider h2{
+    color: #000000;
+    font-size: 400%;
+    width: 300px;
+    margin-top: 0px;
+}
+.left button{
+width: 300px;
+height: 50px;
+border-radius: 10px;
+border: 2px solid #e4032f;
+color: #e4032f;
+font-weight: bold;
+}
+.left button:hover{
+background-color: #e4032f;
+color: wheat;
+}
+.left p{
+    color: #3e3e3e;
+    width: 600px;
+}
+.delta{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 200px;
+}
+.left{
+    margin-top: 40px;
+    margin-left: 100px;
+}
+img.big{
+     width: 50px;
+     display: block;
+}
+.banner2{
+    width: 100%;
+    background:url(pizzeria-template-gallery-img.jpg);
+    background-size: 110%;
+    background-repeat:no-repeat;
+    height: 500px;
+}
+.banner2 button img{
+    width: 20px;
+    margin-top: 10px;
+}
+.img-mix h2{
+    font-size: 200%;
+    margin-left: 20px;
+    width: 320px;
+    height: fit-content;
+   margin-top: 50px;
+   margin-bottom: 0px;
+
+}
+.img-mix{
+    width: 520px;
+    height: 270px;
+    background-color: rgb(228, 3, 47);
+    margin-left:800px;
+display:flex;
+}
+.float img{
+    margin-top: 40px;
+    height: 100px;
+    margin-left: 30px;
+}
+.float2 p{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 320px;
+}
+.float2 button{
+    background-color: transparent;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    border: 2px solid white;
+    color: aliceblue;
+    display: flex;
+    
+}
+.param{
+    margin-top: 15px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.iicon{
+    margin-top: 4px;
+    margin-left: 20px;
+}
+.float2 button:hover{
+    background-color: black;
+    color: wheat;
+}
+.apple svg{
+    width: 40px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.apple{
+    background-color: white;
+    width: 70px;
+    border-radius: 50%;
+    height: 70px;
+}
+.main-attach{
+    background-color: rgb(228, 3, 47);
+    height: 250px;
+    display: flex;
+}
+.svgs svg{
+    width: 20px;
+}
+.attach{
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+}
+.attach h2{
+    font-size: 400%;
+}
+.apple{
+    margin-top: 100px;
+    margin-left: 100px;
+
+}
+.svgs{
+    margin-top: 100px;
+}
+.rating{
+    margin-top: 50px;
+}
+.svgs,.rating{
+    margin-left: 10px;
+}
+.iicon2 svg{
+    width: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.download button{
+    width: 250px;
+    display: flex;
+    border-radius: 5px;
+    border:2px solid #e4032f;
+
+}
+.param2{
+margin-top: 20px;
+font-size: large;
+margin-left: 20px;
+font-weight: bold;
+color: #e4032f;
+}
+.buttons{
+display: flex;
+}
+.mobile{
+    display: flex;
+}
+.download h4,.download h2{
+    color: #000000;
+}
+.download p{
+    color: #3e3e3e;
+}
+.mobile img{
+    margin-left: 150px;
+}
+.download h4{
+    font-size: 200%;
+}
+.download h2{
+    font-size: 400%;
+}
+.download{
+    margin-left: 100px;
+}
+.download button.button2{
+    margin-left: 30px;
+}
+.download p{
+    font-size: large;
+}
+.mobile{
+    margin-top: 60px;
+}
+.download button:hover{
+    background-color: black;
+}
+.footer-icons svg{
+    width: 20px;
+    margin: 10px;
+}
+svg.facebook{
+    width: 15px;
+}
+.lice2{
+    color: #3e3e3e;
+    width: 300px;
+}
+.end{
+    display: flex;
+    justify-content: space-around;
+}
+.end li{
+    color: #3e3e3e;
+    list-style-type: none;
+    margin-top: 10px;
+}
+.end h2{
+    color: #000000;
+}
+.end ol{
+    padding-left: 0px;
+}
+.end{
+    margin-top: 60px;
+}
+footer p{
+    color: #3e3e3e;
+    display: inline;
+}
+footer div{
+    width: 100%;
+    height: 100px;
+    margin-top: 70px;
+}
+.footp{
+
+    margin-left: 100px;
+}
+.footp2{
+    margin-left: 900px;
+}
+footer{
+    border-top: 1px solid #fecc00;
+}
+@media screen and (max-width:1000px) {
+    .start{
+       display: block;
+    }   
+    .panel{
+        height: 900px;
+        background-size: cover;
+        border-bottom-right-radius: 100px;
+        border-bottom-left-radius: 100px;
+   width: 480px;
+    background-size: contain;}
+    .pizza2 img{
+        position: absolute;
+        top: 52em;
+        left: 10em;
+        z-index: 1; 
+        width: 30vw;  
+        } 
+ nav ol{
+            display: none;
+        }  
+.pizza h1{
+    font-size:xx-large;
+}
+.icons{
+    display: none;
+}
+.start button{
+    display: none;
+}
+.pizza{
+   margin-left: 40px;
+}
+.pizza P{
+    width: 300px;
+    margin-left: 5px;
+}
+.pizza button{
+    display: block;
+}
+button.red{
+    margin-left: 50px;
+}
+.start img{
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.para{
+    display: block;
+}
+.div1,.div3{
+    margin-top: 80px;
+}
+.div2{
+    margin-top: 80px;
+}
+.para p{
+    width: 300px;
+}
+.collect img.bimg{
+    width: 30%;
+}
+.collect{
+    display: block;
+    height: 1700px;
+}
+.line{
+    margin-left: 170px;
+}
+.section2{
+    display: block;
+}
+.new h3{
+    margin-left: 100px;
+}
+.new h2{
+    margin-left: 100px;
+}
+.new p{
+    margin-left: 100px;
+    width: 400px;
+}
+.menu{
+    margin-left: 100px;
+}
+.deals button{
+    margin-left: 5px;
+}
+div.meat{
+margin-left: 10px;
+width: 100%;
+background-position:bottom top;
+
+}
+
+}
